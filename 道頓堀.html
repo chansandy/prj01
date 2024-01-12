@@ -5,33 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>道頓堀</title>
+    <link rel="stylesheet" href="style.css">
+    <title aria-setsize="50">道頓堀</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Sans+TC:wght@400;900&family=Noto+Serif+TC:wght@900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-
     <header>
 
-        <h1> 日本熱門景點 </h1>
-        <nav>
+        <h1 style="color:rgb(0, 0, 0)">
+            <marquee behavior=scroll>
+                <font size=7> 日本旅遊熱門景點 </font>
+            </marquee>
+        </h1>
 
-            <ul>
-                <li><a href="道頓堀.html">道頓堀與心齋橋</a></li>
-                <li><a href="白川鄉.html">白川鄉</a></li>
-                <li><a href="小樽.html">小樽</a></li>
-            </ul>
-        </nav>
     </header>
+    <nav>
 
+        <ul style="display:flex;">
+            <li style="list-style:none;margin-right:10px"><a href="道頓堀.html"><font size=5>道頓堀與心齋橋</font></a></li>
+            <li style="list-style:none;margin-right:10px"><a href="白川鄉.html"><font size=5>白川鄉</font></a></li>
+            <li style="list-style:none;margin-right:10px"><a href="小樽.html"><font size=5>小樽</font></a></li>
+        </ul>
+    </nav>
     <article>
         <section>
-            <h2>景點介紹</h2>
+            <h2><B>景點介紹</B></h2>
             <p>大阪是遊客和狂歡者的天堂。在道頓堀，高聳的霓虹燈招牌、會所、酒吧以及供應當地特色美食的餐廳比比皆是。在這裡可以體驗到刺激而又不容錯過的大阪夜生活。</p>
             <h3>道頓堀橋：大阪中心</h3>
             <p>道頓堀旁有一座具 400 年歷史的運河。運河上方的橋是一個相當熱門的拍照景點，從這裡可以看到固力果先生 (Glico Man) 的廣告招牌。招牌上的運動員正對戎橋，是大阪的著名地標。</p>
             <img src="./images/道頓堀.jpeg" width="800" height="600" alt="道頓堀" />
             <br>
-            <h4>交通方式</h4>
+            <!-- <audio controls>
+                <source src="audio/士林官邸.mp3" type="audio/mp3" /> -->
+            </audio>
+            <hr>
+            <h3><B>交通方式</B></h3>
             <p>
                 在大阪市區內，搭乘火車可輕鬆前往心齋橋和道頓堀。<br> 從大阪或梅田站搭乘御堂筋線至心齋橋站，從心齋橋筋商店街出口出站。沿商店街步行，您便來到道頓堀的戎橋。您也可搭乘御堂筋線至難波站，出站後直接來到道頓堀。
             </p>
@@ -41,7 +53,7 @@
     </article>
 
     <aside>
-        <h3>特別推薦</h3>
+        <h3><B>特別推薦</B></h3>
         <ul>
             <li><a href="https://www.japan.travel/tw/spot/1102/">難波城</a></li>
             <li><a href="https://www.japan.travel/tw/spot/1107/">心齋橋商店街</a></li>
@@ -49,9 +61,8 @@
     </aside>
 
     <footer>
-        <h4>2020&copy; - This is the footer of the website.</h4>
+        <h4>&copy;2020 - This is the footer of the website.</h4>
     </footer>
-
 </body>
 
 </html>
