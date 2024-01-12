@@ -1,0 +1,34 @@
+/* h1{background: rgb(132, 216, 241);color: rgb(0, 0, 0)} */
+h2{color: chocolate}
+h4{background: tomato}
+h3{color: chocolate}
+aside{
+    margin: 40px;
+    padding: 30px;
+    /* border: 5px solid skyblue;
+    background: skyblue */
+    background: #ffefba; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffefba, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffefba, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+    article{
+        margin: 40px;
+        padding: 30px;
+      /*  border: 5px solid skyblue;
+        background: rgb(180, 214, 228) */
+        background: #e1eec3; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #e1eec3, #f05053); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #e1eec3, #f05053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+body{font-family: 'Noto Serif TC', serif;}
+header{
+    padding-top: 40PX;
+color: #067eee;
+font-weight: 800;
+background-color:#fff;
+background-image:url(../WEB01/images/背景.jpg);
+background-position:center center;
+height: 25vh;
+background-size:cover; 
+background-repeat:no-repeat;    
+}
