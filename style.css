@@ -26,7 +26,7 @@ header{
 color: #067eee;
 font-weight: 800;
 background-color:#fff;
-background-image:url(../WEB01/images/背景.jpg);
+background-image:url(./images/背景.jpg);
 background-position:center center;
 height: 25vh;
 background-size:cover; 
